@@ -23,9 +23,9 @@ A tool to fetch and read articles from Trade Companion by Adam Mancini on Substa
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
-3. Install dependencies:
+3. Install dependencies using the pyproject.toml file:
    ```bash
-   uv pip install -r requirements.txt
+   uv pip install -e .
    ```
 
 ### Setting up Substack Authentication

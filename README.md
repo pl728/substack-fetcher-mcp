@@ -53,23 +53,21 @@ This tool is designed to be used with Claude AI assistant. To set it up:
 1. Configure Claude to use this MCP server by adding the following to your Claude config file:
 
 ```json
-json
 {
-"mcpServers": {
-"substack_reader": {
-"command": "uv",
-"args": [
-"--directory",
-"/path/to/substack_reader",
-"run",
-"substack_reader.py"
-]
-}
-},
-"globalShortcut": "Ctrl+Space"
+  "mcpServers": {
+    "substack_reader": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/substack_reader",
+        "run",
+        "substack_reader.py"
+      ]
+    }
+  },
+  "globalShortcut": "Ctrl+Space"
 }
 ```
-
 
 Replace `/path/to/substack_reader` with the actual path to your substack_reader directory.
 
